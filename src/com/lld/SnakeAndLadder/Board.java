@@ -14,6 +14,8 @@ public class Board {
     private Board() {
     }
 
+
+
     public static Board getBoardInstance() {
         if (boardInstance == null) {
             boardInstance = new Board();
