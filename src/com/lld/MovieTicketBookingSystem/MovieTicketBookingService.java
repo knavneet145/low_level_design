@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 public class MovieTicketBookingService {
     private static MovieTicketBookingService instance;
-    private List<String> theaters;
+    private final List<String> theaters;
     private static final ScheduledExecutorService executorService = Executors.newScheduledThreadPool(2);
 
     private MovieTicketBookingService() {

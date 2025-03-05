@@ -2,7 +2,6 @@ package com.lld.MovieTicketBookingSystem.Factory;
 
 import com.lld.MovieTicketBookingSystem.Booking;
 import com.lld.MovieTicketBookingSystem.DAO;
-import com.lld.MovieTicketBookingSystem.Seat;
 import com.lld.MovieTicketBookingSystem.Show;
 import java.util.List;
 

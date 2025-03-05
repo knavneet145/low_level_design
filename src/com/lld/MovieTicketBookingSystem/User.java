@@ -8,8 +8,8 @@ public class User {
     private final String name;
     private final String email;
     private String password;
-    private List<Booking> history;
-    private List<Booking> upcoming;
+    private final List<Booking> history;
+    private final List<Booking> upcoming;
 
     public List<Booking> getHistory() {
         return history;
